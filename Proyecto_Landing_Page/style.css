@@ -1,0 +1,104 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  min-height: 100vh;
+  background-color: #000000;
+  color: #9ad79b;
+  height: 2000px;
+  position: relative;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  margin-top: 30px;
+  padding: 30px;
+  border-bottom: 2px dotted #9ad79b;
+  border-top: 2px dotted #9ad79b;
+  background-color: #000000;
+  z-index: 1;
+}
+
+.content {
+  margin-top: 30px;
+  padding: 30px;
+  border-bottom: 2px dotted #9ad79b;
+  border-top: 2px dotted #9ad79b;
+}
+.content > * {
+  margin: 10px;
+}
+.sidebar {
+  padding: 20px;
+  margin-top: 330px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  border-right: 2px dotted #9ad79b;
+  border-left: 2px dotted #9ad79b;
+}
+.sidebar > h3,
+ul {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+ul > li {
+  margin: 10px;
+}
+
+a {
+  color: #9ad79b;
+}
+
+a:active {
+  color: #6f9e70;
+}
+
+.features {
+  padding: 30px;
+  margin-top: 300px;
+  margin-bottom: 250px;
+  border-bottom: 2px dotted #9ad79b;
+  border-top: 2px dotted #9ad79b;
+}
+
+.features > * {
+  text-align: center;
+}
+.feature {
+  padding: 15px;
+}
+
+button {
+  margin: 10px;
+  padding: 5px;
+  background-color: rgb(220, 220, 220);
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+button:active {
+  background-color: rgb(177, 177, 177);
+}
+
+footer {
+  padding: 20px;
+  position: absolute;
+  border-bottom: 2px dotted #9ad79b;
+  border-top: 2px dotted #9ad79b;
+  width: 100%;
+  bottom: 0px;
+}
+
+footer > * {
+  text-align: center;
+}
